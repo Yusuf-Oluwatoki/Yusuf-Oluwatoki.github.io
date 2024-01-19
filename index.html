@@ -4,27 +4,43 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Welcome to My Page</title>
-    <style>
+        <style>
         body {
             font-family: Arial, sans-serif;
-            margin: 10;
-            padding: 10;
+            margin: 10px;
+            padding: 10px;
             background-color: #f0f0f0;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            height: 100vh;
+        }
+        .container {
+            background-color: #fff;
+            border-radius: 5px;
+            box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+            margin: 10px;
+            padding: 20px;
+            text-align: center;
+        }
+        .container-60 {
+            width: calc(60% - 20px);
+        }
+        .container-40 {
+            width: calc(40% - 20px);
         }
         h1 {
             color: #333;
-            text-align: justify;
-            padding: 20px 0;
         }
         p {
-            text-align: justify;
             font-size: 18px;
             color: #666;
         }
     </style>
 </head>
 <body>
-     <div class="container">
+    <div class="container container-40"></div>
+     <div class="container container-60">
     <h1>Yusuf Oluwatoki Yusuf</h1>
     <p> I am a Doctoral Researcher at Tampere University. </p>
     <p>  I’m passionate about applied mathematics </p>
@@ -35,7 +51,7 @@
         <p> I’m eager to connect and collaborate to create real-world solutions.</p>
         <p> Let’s shape the future together!.</p>
          </div>
-    <div class="container"></div>
+    
         
 </body>
 </html>
